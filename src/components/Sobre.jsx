@@ -1,3 +1,5 @@
+import { BiLogoCss3, BiLogoFigma, BiLogoGithub, BiLogoHtml5, BiLogoJavascript, BiLogoReact } from "react-icons/bi";
+
 const Sobre = () => {
     return ( 
         <div className="w-[1040px] relative bg-linear-270 from-black to-[#a33922] p-5 m-auto rounded-[10px]">
@@ -15,15 +17,43 @@ const Sobre = () => {
                 </div>
                 
                 <div className="px-20">
-                    <h2 className="text-2xl font-semibold">Projetos Pessoais</h2>
-                    <div className="grid grid-cols-3 *:border-1 gap-5">
+                    <h2 className="text-2xl font-semibold mb-6 -mt-20">Projetos Pessoais</h2>
+                    <div className="grid grid-cols-3 *:border-1 *:border-orange-500 gap-5">
                         <p>teste</p>
                         <p>teste</p>
                         <p>teste</p>
                     </div>
                 </div>
-                <h2 className="text-2xl font-semibold">Minhas skills</h2>
-                html css js react github figma 
+
+                <div>
+                    <h2 className="text-2xl font-semibold text-centerg">Minhas skills</h2>
+                    <div className="flex *:flex *:flex-col *:justify-between">
+                        <div>
+                            <BiLogoHtml5 size={50} />
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <BiLogoCss3 size={50} />
+                            <p>CSS</p>
+                        </div>
+                        <div>
+                            <BiLogoJavascript size={50} />
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <BiLogoReact size={50} />
+                            <p>React</p>
+                        </div>
+                        <div>
+                            <BiLogoGithub size={50} /> 
+                            <p>Github</p>
+                        </div>
+                        <div>
+                            <BiLogoFigma size={50} />
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
      );
