@@ -26,8 +26,8 @@ const Sobre = () => {
                 </div>
 
                 <div>
-                    <h2 className="text-2xl font-semibold text-centerg">Minhas skills</h2>
-                    <div className="flex *:flex *:flex-col *:justify-between">
+                    <h2 className="text-2xl font-semibold text-center">Minhas skills</h2>
+                    <div className="flex *:flex *:flex-col justify-around gap-10">
                         <div>
                             <BiLogoHtml5 size={50} />
                             <p>HTML</p>
